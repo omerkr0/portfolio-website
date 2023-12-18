@@ -1,5 +1,5 @@
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
-import profile from '../assets/profile.jpg'
+import profile from '../../public/assets/profile.jpg'
 
 function Header() {
   return (
