@@ -65,6 +65,7 @@ function Navbar() {
           <li>
             <Link
               to="projects"
+              smooth={true}
               className="block mt-4 lg:inline-block lg:mt-0 px-3 py-2 border-spacing-0 rounded-lg text-black hover:text-white hover:bg-gray-600 mr-4"
             >
               Projects
