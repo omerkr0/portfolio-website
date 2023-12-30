@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 import { PortfolioContextProvider } from './context/PortfolioContext'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <Skills />
           <About />
           <Projects />
+          <Contact />
         </main>
         <Footer />
       </div>
