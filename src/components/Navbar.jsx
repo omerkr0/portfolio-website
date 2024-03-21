@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <nav className="fixed top-0 right-0 left-0 z-50 bg-white shadow p-4 flex flex-wrap items-center justify-between px-14 font-semibold">
       <div className="flex items-center flex-shrink-0 mr-6">
-        <p className='text-xl'>Omer.dev</p>
+        <p className="text-xl">Omer.dev</p>
       </div>
       <div className="block lg:hidden">
         <button
@@ -38,6 +38,8 @@ function Navbar() {
         <ul className="text-sm lg:flex-grow lg:flex lg:justify-end">
           <li>
             <Link
+              to="home"
+              smooth={true}
               onClick={handleScrollTop}
               className="block mt-4 lg:inline-block lg:mt-0 px-3 py-2 border-spacing-0 rounded-lg text-black hover:text-white hover:bg-gray-600 mr-4"
             >
