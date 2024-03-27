@@ -88,7 +88,7 @@ function Contact() {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="shadow-sm shadow-gray-400 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5 "
+              className="shadow-sm shadow-gray-400 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-3 "
               required
             />
           </div>
