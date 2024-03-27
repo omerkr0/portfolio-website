@@ -1,5 +1,6 @@
 import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
 import profile from '../../public/assets/profile.jpg'
+import { TypeAnimation } from 'react-type-animation'
 
 function Header() {
   return (
@@ -14,7 +15,16 @@ function Header() {
         </div>
         <div className="md:ml-8 md:mt-0 md:text-left text-center ">
           <h2 className="text-2xl md:mt-11 mt-2 font-semibold ">
-            Front-End Developer 👋
+            <TypeAnimation
+            sequence={[
+                "Front-End Developer 👋", 1000,
+                "Web Developer 👋", 1000,
+                "Software Developer 👋", 1000,
+            ]}
+            speed={30}
+            repeat={Infinity}
+            />
+            
           </h2>
           <p className="text-lg mt-5">
             Hi, I am Ömer Karaman, a front-end developer. <br /> I am currently
