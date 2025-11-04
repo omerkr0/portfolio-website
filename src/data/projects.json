@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "star-wars-app",
+    "title": "Star Wars Starships Explorer",
+    "summary": "Searchable encyclopedia for Star Wars starships with animated details and responsive UI.",
+    "category": "Frontend / React",
+    "technologies": ["React", "React Router", "Framer Motion", "REST"],
+    "githubUrl": "https://github.com/omerkr0/star-wars-app",
+    "liveUrl": "https://star-wars-starships-app.netlify.app/",
+    "image": "/assets/star_wars.png",
+    "imageAlt": "Screenshot of the Star Wars starship explorer interface.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "slug": "book-app",
+    "title": "Book Discovery App",
+    "summary": "Interactive catalogue that lets readers browse and filter books, complete with detail pages and favourites.",
+    "category": "Frontend / React",
+    "technologies": ["React", "React Router", "CSS Modules"],
+    "githubUrl": "https://github.com/omerkr0/book-app",
+    "liveUrl": "https://book-app-omerkr0.vercel.app/",
+    "image": "/assets/book.png",
+    "imageAlt": "Screenshot showing the book discovery grid and filters.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "slug": "portfolio-website",
+    "title": "Personal Portfolio",
+    "summary": "The site you're browsing — crafted with modern tooling, custom sections, and dark/light aware theming.",
+    "category": "UI/UX Odaklı",
+    "technologies": ["Vite", "React", "Tailwind CSS"],
+    "githubUrl": "https://github.com/omerkr0/portfolio-website",
+    "liveUrl": "https://omerkr0.dev",
+    "image": "/assets/projects/placeholder.svg",
+    "imageAlt": "Gradient placeholder representing the portfolio project.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "slug": "nextjs-saas-dashboard",
+    "title": "Next.js SaaS Dashboard",
+    "summary": "Full-stack admin experience with authentication, metrics widgets, and persistent settings.",
+    "category": "Full-Stack / Next.js",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+    "githubUrl": "https://github.com/omerkr0/nextjs-saas-dashboard",
+    "liveUrl": null,
+    "image": "/assets/projects/placeholder.svg",
+    "imageAlt": "Placeholder cover for the SaaS dashboard project.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "slug": "go-link-shortener",
+    "title": "Go Link Shortener API",
+    "summary": "RESTful service built with Go that stores and resolves branded short links backed by PostgreSQL.",
+    "category": "Backend / Go & Node",
+    "technologies": ["Go", "PostgreSQL", "Docker"],
+    "githubUrl": "https://github.com/omerkr0/go-link-shortener",
+    "liveUrl": null,
+    "image": "/assets/projects/placeholder.svg",
+    "imageAlt": "Placeholder cover for the Go link shortener service.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "slug": "tailwind-component-kit",
+    "title": "Tailwind Component Kit",
+    "summary": "Collection of accessible UI primitives and motion-ready components for rapid prototyping.",
+    "category": "UI/UX Odaklı",
+    "technologies": ["Tailwind CSS", "Storybook", "Framer Motion"],
+    "githubUrl": "https://github.com/omerkr0/tailwind-component-kit",
+    "liveUrl": null,
+    "image": "/assets/projects/placeholder.svg",
+    "imageAlt": "Placeholder cover for the Tailwind component kit.",
+    "stars": 0,
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+]

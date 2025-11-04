@@ -2,17 +2,17 @@ import { useContext } from 'react'
 import { PortfolioContext } from '../context/PortfolioContext'
 
 function LoadMore() {
-  const { handleLoadMore } = useContext(PortfolioContext)
+  const { handleLoadMore, loading } = useContext(PortfolioContext)
 
   return (
-    <div className="flex justify-center items-center">
-      <button
-        className="bg-white hover:bg-slate-300 border-2 border-gray-900 hover:border-gray-600 border-solid rounded-md shadow-gray-700 shadow-sm hover:shadow-lg hover:shadow-gray-700 text-center w-28 h-11 mt-10 ml-2 font-semibold"
-        onClick={handleLoadMore}
-      >
-        Load More
-      </button>
-    </div>
+    <button
+      type="button"
+      onClick={handleLoadMore}
+      disabled={loading}
+      className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-sky-400 hover:text-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 disabled:cursor-not-allowed disabled:opacity-60 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:border-sky-500 dark:hover:text-sky-400"
+    >
+      {loading ? 'Loading…' : 'Load more'}
+    </button>
   )
 }
 
